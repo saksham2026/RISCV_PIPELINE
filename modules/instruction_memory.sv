@@ -37,7 +37,6 @@ module instruction_memory #(
     //-------------------------------------------------------------------------
     initial begin
     $readmemh(MEM_INIT_FILE, imem);
-    for (int i = 16; i < SIZE; i++) imem[i] = 0;
 	end
 
 
